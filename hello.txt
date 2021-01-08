@@ -20,7 +20,7 @@ to check the available branch
 git branch 
 gren light denots the active branch
 
- to create a new branch
+to create a new branch
 git branch "branchname"
 
 to change the branch
@@ -35,4 +35,11 @@ git merge branchname
 
 To delete the branch
 git branch -d branchname
+
+To add the remote repo
+git remote add origin repourl
+
+to push the code to the online repo 
+git push -u origin branchname
+
 
