@@ -1,11 +1,14 @@
 # To initialize the repo
 git init
 
-# to add 
+# to add files in the repo
 git add for all files (.) 
 
 # to check status 
 git status 
+
+#to create a file in the dir
+touch <filename.extenstion>
 
 # to create snapshot 
 git commit -m "message"
