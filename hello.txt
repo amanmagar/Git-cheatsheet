@@ -1,5 +1,4 @@
 To initialize 
-
 git init
 
 to add 
@@ -17,4 +16,23 @@ git log
 to revert to commit 
 git revert commit id 
 
+to check the available branch
+git branch 
+gren light denots the active branch
+
+ to create a new branch
+git branch "branchname"
+
+to change the branch
+git checkout -b branchname
+
+to delete the branch
+git branch -d branchname
+
+To merge the branch
+git merge branchname
+(You should be in the branch in which you want the fles from another branch to be merged) 
+
+To delete the branch
+git branch -d branchname
 
