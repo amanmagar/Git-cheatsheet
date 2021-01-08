@@ -7,8 +7,8 @@ git add for all files (.)
 # to check status 
 git status 
 
-#to create a file in the dir
-touch <filename.extenstion>
+# to create a file in the dir
+touch < filename.extension >
 
 # to create snapshot 
 git commit -m "message"
