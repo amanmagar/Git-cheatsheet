@@ -45,4 +45,11 @@ git remote add origin repourl
 # to push the code to the online repo 
 git push -u origin branchname
 
+# to delete the remote branch 
+git push origin -d branchname
+
+# to revert to the prev changes 
+git reset --hard HEAD~step 
+git reset --hard <commitid>
+
 
