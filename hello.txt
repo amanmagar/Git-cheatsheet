@@ -1,3 +1,20 @@
-vz
+To initialize 
 
-XXXXX
+git init
+
+to add 
+git add for all files (.) 
+
+to check status 
+git status 
+
+to create snapshot 
+git commit -m "message"
+
+to check update logs 
+git log 
+
+to revert to commit 
+git revert commit id 
+
+
