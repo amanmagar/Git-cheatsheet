@@ -52,4 +52,23 @@ git push origin -d branchname
 git reset --hard HEAD~step \  
 git reset --hard <commitid>  
 
+# Open source contribution
+
+# to clone or download the remote repo into your local repo 
+git clone <remoteurl>
+
+# to fork the remote repo of other dev to your 
+click on fork button on the right side of the repo 
+
+# to add original author's repo 
+git remote add upstream <original author's repo link>
+
+# to get updates from author's repo to local repo
+git pull upstream <branchname> 
+if not added then it pulls all branches
+
+# After pushing your local to the remote 
+Create a pull request to the original repo author.
+Clearly add the comment and details of have codes have you updated 
+
 
